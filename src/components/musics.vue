@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <div class="container">
+        <!-- <div class="container"> -->
             <div class="card" style="width: 30rem;">
                 <img :src="current.url">
                 <h5>{{current.title}}</h5>
@@ -18,8 +17,7 @@
                   </button> 
                 </div>
             </div>
-        </div>
-    </div>
+        <!-- </div> -->
 </template>
 
 <script>
@@ -137,7 +135,7 @@ img{
 .card{
     padding:10px;
     margin:5px auto;
-    height:98vh;
+    height:100%;
 }
 button{
     margin-left:10px;
