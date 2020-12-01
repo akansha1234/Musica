@@ -1,6 +1,6 @@
 <template>
         <!-- <div class="container"> -->
-            <div class="card" style="width: 30rem;">
+            <div class="card" style="width: 20rem;">
                 <img :src="current.url">
                 <h5>{{current.title}}</h5>
                 <section class="player">
