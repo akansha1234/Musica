@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <musics></musics>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import musics from './components/musics.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    musics
   }
 }
 </script>
@@ -23,6 +22,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding:20px;
+  background:url("https://images.unsplash.com/photo-1576553836648-156f0007cfd2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80");
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
